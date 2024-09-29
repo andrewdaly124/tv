@@ -10,9 +10,13 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+  cursor: pointer;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.pepper:hover {
+  filter: drop-shadow(0 0 2em #e661fbaa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
@@ -28,7 +32,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
+  .logo {
     animation: logo-spin infinite 20s linear;
   }
 }

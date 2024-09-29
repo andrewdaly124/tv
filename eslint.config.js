@@ -40,6 +40,7 @@ export default tseslint.config(
       'import/no-duplicates': 'warn',
       */
 
+      // Kinda annoying to worth with trying to get prettier eslint extension to work
       'simple-import-sort/imports': 'warn',
       'simple-import-sort/exports': 'warn',
     },
