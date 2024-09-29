@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 import viteLogo from '/vite.svg';
 
+import pepper from './assets/peppy.png';
 import reactLogo from './assets/react.svg';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <img src={reactLogo} className="logo react" alt="React logo" />
       </div>
       <h1>Vite + React</h1>
       <div className="card">
