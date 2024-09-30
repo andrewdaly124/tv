@@ -4,7 +4,12 @@
 # production
 /dist
 
-# misc
-.vscode
-
 npm-debug.log*
+
+# hidden files
+.*
+
+# whitelist hidden files
+!.gitignore
+!.prettierrc
+!.husky
