@@ -13,4 +13,4 @@ npm-debug.log*
 !.gitignore
 !.prettierrc
 !.husky
-!.env.
+!.env.*
