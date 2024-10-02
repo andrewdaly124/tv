@@ -6,12 +6,14 @@ import viteLogo from '/vite.svg';
 
 import pepper from './assets/peppy.png';
 import reactLogo from './assets/react.svg';
+import { Home } from './ui/layouts';
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <Home />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
